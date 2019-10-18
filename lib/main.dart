@@ -9,6 +9,7 @@ import './card.dart' show DeveloperCard;
 
 import './developers/luke_pighetti/page.dart';
 import './developers/groovin_chip/groovin_chip.dart';
+import './developers/jose_spinardi/jose_spinardi.dart';
 
 void main() => runApp(MyApp());
 
@@ -84,5 +85,11 @@ final developerCards = <Widget>[
     business: "Flutter Dev",
     image: AssetImage('assets/developers/darshan_kawar/avatar.png'),
     page: DarshanKPage(),
+  ),
+  DeveloperCard(
+    name: "Jose Spinardi",
+    business: "Backend Developer",
+    image: AssetImage("assets/developers/jose_spinardi/avatar.png"),
+    page: JoseSpinardiPage(),
   )
 ];
